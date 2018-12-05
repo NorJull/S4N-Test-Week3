@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6841fe3-de57-4bd7-a615-059f121fd95e" name="Default Changelist" comment="" />
+    <list default="true" id="a6841fe3-de57-4bd7-a615-059f121fd95e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/CubeCalculatorTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/OptionTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/OptionTest.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -26,34 +30,34 @@
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/CubeCalculator.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/OptionTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="178">
+              <caret line="99" column="41" lean-forward="true" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/CubeCalculatorTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/LaptopRepository.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="41" />
+              <caret line="2" column="98" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/OptionTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/Laptop.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="30" />
+            <state>
+              <caret column="64" selection-start-column="53" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -67,6 +71,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -75,6 +82,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/CubeCalculator.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ExampleSuite.java" />
         <option value="$PROJECT_DIR$/src/test/scala/CubeCalculatorTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/Laptop.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/LaptopRepository.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/OptionTest.scala" />
       </list>
     </option>
@@ -85,6 +94,7 @@
     <option name="width" value="1295" />
     <option name="height" value="695" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -126,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544015603513" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544026191793" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,48 +311,83 @@
       <updated>1543957981374</updated>
       <workItem from="1543957986079" duration="2433000" />
       <workItem from="1544011614670" duration="107000" />
-      <workItem from="1544012550986" duration="3088000" />
+      <workItem from="1544012550986" duration="9819000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OptionTest_retrivingOptionValue - 2018.12.05 at 07h 43m 48s.xml">
-      <configuration name="OptionTest.retrivingOptionValue" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OptionTest_optionValueWithGetThenThrowException - 2018.12.05 at 07h 47m 15s.xml">
-      <configuration name="OptionTest.optionValueWithGetThenThrowException" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OptionTest_optionValueWithGetThenThrowException - 2018.12.05 at 07h 47m 55s.xml">
-      <configuration name="OptionTest.optionValueWithGetThenThrowException" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OptionTest - 2018.12.05 at 07h 48m 18s.xml">
+    <history-entry file="OptionTest - 2018.12.05 at 10h 18m 42s.xml">
       <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="OptionTest_optionValueWithGet - 2018.12.05 at 07h 55m 59s.xml">
-      <configuration name="OptionTest.optionValueWithGet" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OptionTest_checkingOptionValueWithIsEmptyThenTrue - 2018.12.05 at 08h 04m 55s.xml">
-      <configuration name="OptionTest.checkingOptionValueWithIsEmptyThenTrue" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OptionTest_checkingOptionValueWithIsEmptyThenFalse - 2018.12.05 at 08h 05m 31s.xml">
-      <configuration name="OptionTest.checkingOptionValueWithIsEmptyThenFalse" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OptionTest_optionValueWithGetOrElse - 2018.12.05 at 08h 07m 23s.xml">
-      <configuration name="OptionTest.optionValueWithGetOrElse" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OptionTest - 2018.12.05 at 08h 09m 39s.xml">
+    <history-entry file="OptionTest - 2018.12.05 at 10h 27m 18s.xml">
       <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="OptionTest - 2018.12.05 at 08h 10m 11s.xml">
+    <history-entry file="OptionTest - 2018.12.05 at 10h 29m 08s.xml">
+      <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OptionTest - 2018.12.05 at 10h 40m 40s.xml">
+      <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OptionTest - 2018.12.05 at 10h 42m 20s.xml">
+      <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OptionTest - 2018.12.05 at 10h 49m 24s.xml">
+      <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OptionTest - 2018.12.05 at 10h 50m 07s.xml">
+      <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OptionTest - 2018.12.05 at 10h 50m 48s.xml">
+      <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OptionTest - 2018.12.05 at 10h 57m 41s.xml">
+      <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OptionTest - 2018.12.05 at 11h 09m 37s.xml">
       <configuration name="OptionTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5628000" />
+    <option name="totallyTimeSpent" value="12359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20437019" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.29662523" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.44227353" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32969153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="sbt" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20437019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -365,38 +410,24 @@
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32969153" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="sbt" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32969153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="sbt" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/example/Main.scala" />
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CubeCalculator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/ExampleSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -414,10 +445,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/LaptopRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CubeCalculator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/LaptopRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="98" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/OptionTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="178">
+          <caret line="99" column="41" lean-forward="true" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/Laptop.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="64" selection-start-column="53" selection-end-column="64" />
         </state>
       </provider>
     </entry>
