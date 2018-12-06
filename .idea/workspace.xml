@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/TryTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="115" column="3" lean-forward="true" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
+            <state relative-caret-position="320">
+              <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -111,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2116" />
     <option name="y" value="-28" />
     <option name="width" value="1295" />
@@ -189,7 +189,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544111336600" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544113493971" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -235,42 +235,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryTest.filteringATryThenFailure" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="FirstScalaProyect" />
-      <setting name="path" value="TryTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="TryTest" />
-      <setting name="testName" value="filteringATryThenFailure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryTest.nestedTryStructureWithFaltMap" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="FirstScalaProyect" />
-      <setting name="path" value="TryTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="TryTest" />
-      <setting name="testName" value="nestedTryStructureWithFaltMap" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TryTest.simpleTryWithPatternMatchingThenFailure" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="FirstScalaProyect" />
       <setting name="path" value="TryTest" />
@@ -307,21 +271,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TryTest.usingRecoverFromFailure" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="FirstScalaProyect" />
+      <setting name="path" value="TryTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="TryTest" />
+      <setting name="testName" value="usingRecoverFromFailure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryTest.usingRecoverFromFailure02" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="FirstScalaProyect" />
+      <setting name="path" value="TryTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="TryTest" />
+      <setting name="testName" value="usingRecoverFromFailure02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="sbt Task.Run the program" />
-      <item itemvalue="ScalaTest.TryTest.nestedTryStructureWithFaltMap" />
-      <item itemvalue="ScalaTest.TryTest.filteringATryThenFailure" />
       <item itemvalue="ScalaTest.TryTest.simpleTryWithpatternMatching" />
       <item itemvalue="ScalaTest.TryTest.simpleTryWithPatternMatchingThenFailure" />
       <item itemvalue="ScalaTest.TryTest" />
+      <item itemvalue="ScalaTest.TryTest.usingRecoverFromFailure02" />
+      <item itemvalue="ScalaTest.TryTest.usingRecoverFromFailure" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="ScalaTest.TryTest" />
+        <item itemvalue="ScalaTest.TryTest.usingRecoverFromFailure" />
+        <item itemvalue="ScalaTest.TryTest.usingRecoverFromFailure02" />
         <item itemvalue="ScalaTest.TryTest.simpleTryWithPatternMatchingThenFailure" />
         <item itemvalue="ScalaTest.TryTest.simpleTryWithpatternMatching" />
-        <item itemvalue="ScalaTest.TryTest.filteringATryThenFailure" />
-        <item itemvalue="ScalaTest.TryTest.nestedTryStructureWithFaltMap" />
       </list>
     </recent_temporary>
   </component>
@@ -370,14 +370,11 @@
       <workItem from="1543957986079" duration="2433000" />
       <workItem from="1544011614670" duration="107000" />
       <workItem from="1544012550986" duration="9819000" />
-      <workItem from="1544098647029" duration="7766000" />
+      <workItem from="1544098647029" duration="8268000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TryTest_filteringATryThenFailure - 2018.12.06 at 10h 26m 18s.xml">
-      <configuration name="TryTest.filteringATryThenFailure" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TryTest_filteringATryThenFailure - 2018.12.06 at 10h 29m 09s.xml">
       <configuration name="TryTest.filteringATryThenFailure" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -405,9 +402,12 @@
     <history-entry file="TryTest - 2018.12.06 at 10h 46m 57s.xml">
       <configuration name="TryTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TryTest_simpleTryWithPatternMatchingThenFailure - 2018.12.06 at 11h 22m 30s.xml">
+      <configuration name="TryTest.simpleTryWithPatternMatchingThenFailure" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20125000" />
+    <option name="totallyTimeSpent" value="20627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="876" extended-state="6" />
@@ -587,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/TryTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="115" column="3" lean-forward="true" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
+        <state relative-caret-position="320">
+          <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>

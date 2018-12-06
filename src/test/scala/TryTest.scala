@@ -115,4 +115,34 @@ class TryTest extends FunSuite {
     assert("Do another thing here!" === actual)
   }
 
+
+  /******************************************************
+    Recovering from a Failure
+  ******************************************************/
+
+  test("usingRecoverFromFailure"){
+
+    val try01 = Try(PartyTicketService.buyPartyTicket(Person("Naren",14)))
+
+    val actual = try01 recover {
+      case e: UnderAgeException => PartyTicket("Street seller")
+    }
+    println(actual)
+    // Do something with the actual´s value...
+    assert(Success(PartyTicket("Street seller")) === actual)
+  }
+
+  test("usingRecoverFromFailure02"){
+
+    val try01 = Try(PartyTicketService.buyPartyTicket(Person("Naren",18)))
+
+    val actual = try01 recover {
+      case e: UnderAgeException => PartyTicket("Street seller")
+    }
+    println(actual)
+    // Do something with the actual´s value...
+    assert(Success(PartyTicket("Official seller")) === actual)
+  }
+
+
 }
