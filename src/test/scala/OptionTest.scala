@@ -1,3 +1,5 @@
+import com.vamosaprogramar.entity.Laptop
+import com.vamosaprogramar.repository.LaptopRepository
 import org.scalatest.FunSuite
 
 class OptionTest extends FunSuite {
@@ -88,7 +90,7 @@ class OptionTest extends FunSuite {
   }
 
   /** ***************************************************
-    * Using Laptop class to test Option
+    * Using com.vamosaprogramar.entity.Laptop class to test Option
     * ***************************************************/
 
   test("optionWithPatternMatchingThenNone") {

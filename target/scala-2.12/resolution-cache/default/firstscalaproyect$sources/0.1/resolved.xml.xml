@@ -4,7 +4,7 @@
 		module="firstscalaproyect$sources"
 		revision="0.1"
 		status="integration"
-		publication="20181205072303"
+		publication="20181206071759"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

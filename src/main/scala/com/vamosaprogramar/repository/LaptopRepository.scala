@@ -1,3 +1,7 @@
+package com.vamosaprogramar.repository
+
+import com.vamosaprogramar.entity.Laptop
+
 object LaptopRepository {
 
   private val laptops = Map(1 -> Laptop(1, "LaptopXL", "Quad core Intel APOLLO", Some("Colombia")),
