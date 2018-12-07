@@ -71,5 +71,48 @@ class EitherTest extends FunSuite{
     assert(0 === actual)
   }
 
+  /**************************************************
+    Converting Either to Option type
+    ************************************************/
+
+  test("convertingRightToOption"){
+    val actual = PartyService.getPartyTypeByDay("Monday").toOption  //Right
+
+    assert(Some(0) === actual)
+
+  }
+  test("convertingLeftToOption"){
+    val actual = PartyService.getPartyTypeByDay("Friday").toOption  //Left
+
+    assert(None === actual)
+
+  }
+
+  /***********************************************
+     EITHER IS NOW RIGHT-BIASED
+    **********************************************/
+
+  test("simpleEitherLeftWithMapOldVersion"){
+    val actual = PartyService.getPartyTypeByDay("Friday").left.map(x => x.toUpperCase())
+
+    assert(Left("DANCE PARTY") === actual)
+  }
+
+  test("simpleEitherLeftWithMapNewVersion"){
+    val actual = PartyService.getPartyTypeByDay("Friday").map(x => x + 2) //return the Left value unchanged
+
+    assert(Left("Dance Party") === actual)
+  }
+
+  test("simpleEitherRightWithMapOldVersion"){
+    val actual = PartyService.getPartyTypeByDay("Monday").right.map(x => x + 2)
+
+    assert(Right(2) === actual)
+  }
+  test("simpleEitherRightWithMapNewVersion"){
+    val actual = PartyService.getPartyTypeByDay("Monday").map(x => x + 2) // Right is assumed to be the default case to operate on
+
+    assert(Right(2) === actual)
+  }
 
 }
